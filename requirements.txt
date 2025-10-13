@@ -1,0 +1,17 @@
+streamlit
+python-dotenv
+pymupdf
+pdfminer.six
+sentence-transformers
+scikit-learn
+numpy
+pandas
+requests
+groq
+torch
+transformers
+deepface
+opencv-python
+librosa
+soundfile
+fpdf2
