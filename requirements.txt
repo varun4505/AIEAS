@@ -15,3 +15,6 @@ opencv-python
 librosa
 soundfile
 fpdf2
+pymongo
+dnspython
+beautifulsoup4
