@@ -253,12 +253,12 @@ def candidate_view():
             if normalized_linkedin_link and not normalized_linkedin_link.lower().startswith("http"):
                 normalized_linkedin_link = f"https://{normalized_linkedin_link.lstrip('@')}"
 
-                candidate_payload = {
+            candidate_payload = {
                 "name": info["name"],
                 "email": info["email"],
                 "position": info["position"],
-                    "resume_text": resume_text,
-                    "extracted_links": extracted,
+                "resume_text": resume_text,
+                "extracted_links": extracted,
                 "job_description_title": job_descriptor["title"] if job_descriptor else "Manual Entry",
                 "job_fit_score": round(rag_result.fit_score, 2),
                 "strengths": rag_result.strengths,
